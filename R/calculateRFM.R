@@ -10,10 +10,10 @@
 #'             The column "PurchAmount" specifies the total spending per purchase.
 #'
 # Arguments
-#' @paramdata A data.table containing the transaction record details for every customer
-#' @paramweight_recency -  Weight of recency.
-#' @paramweight_frequency -  Weight of frequency.
-#' @paramweight_monetary -  Weight of monetary.
+#' @param data A data.table containing the transaction record details for every customer
+#' @param weight_recency -  Weight of recency.
+#' @param weight_frequency -  Weight of frequency.
+#' @param weight_monetary -  Weight of monetary.
 #'
 #Returned values
 #' @return Returns a data containing the recency, frequency, monetary scores and the weighted final score for each customer
